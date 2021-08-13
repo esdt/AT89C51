@@ -6,10 +6,10 @@ unsigned char str[]={"0123456789"};
 void delay(unsigned int n)
 {  
 	unsigned int i,j;
-   for(i=0;i<n;i++)
-   {
+   	for(i=0;i<n;i++)
+   	{
    		for(j=0;j<120;j++);
-   } 
+   	} 
 }
 void writecom(unsigned char com)
 {
